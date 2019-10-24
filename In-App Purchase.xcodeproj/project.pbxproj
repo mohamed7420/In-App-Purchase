@@ -13,6 +13,8 @@
 		BA33DF8C2360E17500FEAA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA33DF8A2360E17500FEAA70 /* Main.storyboard */; };
 		BA33DF8E2360E17700FEAA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA33DF8D2360E17700FEAA70 /* Assets.xcassets */; };
 		BA33DF912360E17700FEAA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA33DF8F2360E17700FEAA70 /* LaunchScreen.storyboard */; };
+		BA33DF992360EA1D00FEAA70 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33DF982360EA1D00FEAA70 /* ModelData.swift */; };
+		BA33DF9C2360FC4200FEAA70 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA33DF9B2360FC4200FEAA70 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA33DF8D2360E17700FEAA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA33DF902360E17700FEAA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA33DF922360E17700FEAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA33DF982360EA1D00FEAA70 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BA33DF9B2360FC4200FEAA70 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA33DF9C2360FC4200FEAA70 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				BA33DF832360E17500FEAA70 /* In-App Purchase */,
 				BA33DF822360E17500FEAA70 /* Products */,
+				BA33DF9A2360FC4200FEAA70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				BA33DF8D2360E17700FEAA70 /* Assets.xcassets */,
 				BA33DF8F2360E17700FEAA70 /* LaunchScreen.storyboard */,
 				BA33DF922360E17700FEAA70 /* Info.plist */,
+				BA33DF982360EA1D00FEAA70 /* ModelData.swift */,
 			);
 			path = "In-App Purchase";
+			sourceTree = "<group>";
+		};
+		BA33DF9A2360FC4200FEAA70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA33DF9B2360FC4200FEAA70 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA33DF892360E17500FEAA70 /* ViewController.swift in Sources */,
+				BA33DF992360EA1D00FEAA70 /* ModelData.swift in Sources */,
 				BA33DF852360E17500FEAA70 /* AppDelegate.swift in Sources */,
 				BA33DF872360E17500FEAA70 /* SceneDelegate.swift in Sources */,
 			);
